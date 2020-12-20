@@ -6,7 +6,7 @@ In this repository, we offer some android projects we need in the project.
 
 -  SensorInAndroid - Collect data by sensors in android phones
 
-<img src="./img/1.jpg" alt="img" style="zoom:25%;" />
+<div align="center"><img src="./img/1.jpg" alt="img" width="25%" height="25%" /></div>
 
 - TransBetweenAndroid - Data panel in android tablet (Huawei matepad pro) 
 
