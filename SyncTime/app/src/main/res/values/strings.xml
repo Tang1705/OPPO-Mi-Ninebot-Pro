@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SyncTime</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="sync_time">Sync Time</string>
+</resources>

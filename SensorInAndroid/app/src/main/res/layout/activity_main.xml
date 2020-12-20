@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/accelerometerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@drawable/shape_label_orange"
+            android:text="@string/accelerometer"
+            />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:rowCount="1">
+
+            <TextView
+                android:id="@+id/x"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/y"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/z"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/gpsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@drawable/shape_label_orange"
+            android:text="@string/gps"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="4">
+
+            <TextView
+                android:layout_gravity="fill"
+                android:text="@string/latitude"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/lat"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:layout_gravity="fill"
+                android:text="@string/longitude"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/lon"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:layout_gravity="fill"
+                android:text="@string/altitude"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/alt"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:layout_gravity="fill"
+                android:text="@string/time"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:layout_gravity="fill"
+                android:text="@string/speed"
+                android:background="@drawable/shape_label_orange"/>
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_gravity="fill"
+                android:background="@drawable/shape_label_orange"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="25dp"
+        android:background="#90909090" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/open_bluetooth"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/secondButton"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/search_device"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/thirdButton"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/disable_bluetooth"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="25dp"
+        android:background="#90909090" />
+
+    <TextView
+        android:id="@+id/pairedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/paired_devices" />
+
+    <ListView
+        android:id="@+id/lv_devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/unpairedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/unpaired_devices" />
+
+    <ListView
+        android:id="@+id/unpaired_devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

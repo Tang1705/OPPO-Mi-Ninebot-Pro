@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PCServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PCServer_jar</output-path>
+    <root id="archive" name="PCServer.jar">
+      <element id="module-output" name="PCServer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/bluecove-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-io-2.8.0-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xchart-3.6.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xchart-demo-3.6.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

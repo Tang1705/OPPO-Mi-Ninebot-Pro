@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "edu.bjtu.transbetweenandroid"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/achartengine-1.2.0.jar')
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/BaiduTraceSDK_v3_1_7.jar')
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/bos-android-sdk-1.0.3.jar')
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/okhttp-3.8.1.jar')
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/okio-1.13.0.jar')
+    //noinspection GradlePath
+    implementation files('D:/BJTU/oppo & mi car p. pro/TransBetweenAndroid/app/libs/BaiduLBS_Android.jar')
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="bluecove-2.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bluecove-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xchart-3.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xchart-demo-3.6.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

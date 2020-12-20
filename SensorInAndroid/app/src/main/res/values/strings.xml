@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mi car sensor</string>
+    <string name="open_bluetooth">Enable Bluetooth</string>
+    <string name="search_device">Search Devices</string>
+    <string name="disable_bluetooth">Disable Bluetooth</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="unpaired_devices">Unpaired Devices</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="altitude">Altitude:</string>
+    <string name="time">Time:</string>
+    <string name="speed">Speed</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gps">GPS</string>
+</resources>
