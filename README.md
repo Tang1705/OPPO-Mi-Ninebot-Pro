@@ -21,4 +21,4 @@ In this repository, we offer some android projects we need in the project.
 
 ![img](./img/0.jpeg)
 
-In order to help peers to understand our work clearly and intuitively, we also offer some demos, including apks and exe. You can install them in your devices and try to learn to use them. If you have any questions about methods to use them, you can commit an issue and I will answer to your questions.
+In order to help peers to understand our work clearly and intuitively, we also offer some demos, including apks and exe. You can install them on your devices and try to learn to use them. If you have any questions about methods to use them, you can commit an issue and I will answer your questions.
