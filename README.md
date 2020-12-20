@@ -6,7 +6,7 @@ In this repository, we offer some android projects we need in the project.
 
 -  SensorInAndroid - Collect data by sensors in android phones
 
-<img src="./img/1.jpg" alt="img" style="zoom:25%;" />
+<div align="center"><img src="./img/1.jpg" alt="img" width="25%" height="25%" /></div>
 
 - TransBetweenAndroid - Data panel in android tablet (Huawei matepad pro) 
 
@@ -20,6 +20,9 @@ In this repository, we offer some android projects we need in the project.
 - NineBot
 
 ![img](./img/0.jpeg)
+<<<<<<< HEAD
 
 In order to help peers to understand our work clearly and intuitively, we also offer some demos, including apks and exe. You can install them in your devices and try to learn to use them. If you have any questions about methods to use them, you can commit an issue and I will answer to your questions.
 
+=======
+>>>>>>> 7c6f854deced9352b3e99b3b076e3840e24c985f
