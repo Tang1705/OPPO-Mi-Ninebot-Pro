@@ -1,7 +1,4 @@
 # Built application files
-*.aar
-*.ap_
-*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
